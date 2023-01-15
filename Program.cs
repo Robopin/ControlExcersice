@@ -14,3 +14,5 @@ string[] GetNewArray(string[] inputArray)
 }
 Console.WriteLine();
 Console.WriteLine(String.Join(",", array));
+string[] newArray = GetNewArray(array);
+Console.Write($"[{String.Join(",", newArray).Trim(',')}]");
