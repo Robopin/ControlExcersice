@@ -1,3 +1,6 @@
+
+string[] array = { "hello", "2", "world", ":-)" };
+
 string[] GetNewArray(string[] inputArray)
 {
     int len = 3; 
