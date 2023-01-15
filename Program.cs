@@ -12,3 +12,5 @@ string[] GetNewArray(string[] inputArray)
             tempArray[0] += inputArray[i] + ",";
     return tempArray;
 }
+Console.WriteLine();
+Console.WriteLine(String.Join(",", array));
